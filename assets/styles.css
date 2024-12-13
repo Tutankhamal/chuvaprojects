@@ -308,7 +308,7 @@ footer p {
     color: #525252;
     margin-right: 10px;
     margin-left: 10px;
-    text-align: left;
+    text-align: justify;
 }
 
 
@@ -654,7 +654,7 @@ height: 100%;
   .progress-fill {
     height: 100%;
     border-radius: 10px;
-    background: linear-gradient(to right, #0093c4, #00BFFF, #0093c4, #00BFFF, #0093c4);
+    background: linear-gradient(to right, #0bafe6, #0bafe6, #0bafe6, #0bafe6, #0bafe6);
     animation: colorChange 7s infinite linear;
   }
   
