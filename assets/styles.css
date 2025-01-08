@@ -30,12 +30,21 @@ body {
   }
 
 /* Navbar */
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;  /* Ensures all items are vertically centered */
     padding: 0.5em;
-    background-color: #1d1d1d80;
+    border-radius: 20px;
+    background-color: #1d1d1db0;
+    width: 400px;
+    margin-top: 1em;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 1em;
 }
 
 nav .logo {
