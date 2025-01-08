@@ -35,9 +35,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* This centers items horizontally */
     align-items: center;  /* Ensures all items are vertically centered */
-    padding: 0.5em;
+    padding: 0em;
     border-radius: 20px;
     background-color: #1d1d1db0;
     max-width: 400px;
@@ -54,24 +54,28 @@ nav .logo {
 }
 
 nav .logo-img {
-    width: 50px;  /* Adjust this to the desired width */
+    width: 1px;  /* Adjust this to the desired width */
     height: auto; /* Automatically adjusts height to maintain aspect ratio */
-    margin-right: 10px; /* Space between logo and text */
-    margin-left: 10px;
+    
 }
 
 nav ul {
+    align-items: center;
     list-style: none;
     display: flex;
-    gap: 1em;
-    margin-right: 10px;
-    margin-top: 5px;
+    
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
+    text-align: center;
+    
 }
 
 .navselect {
@@ -232,11 +236,11 @@ footer p {
     margin-top: 200px;
 }
 
-.contact{
+.contact {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3em;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
     margin: 25px ; /* 20px para cima e para baixo, 7px para os lados */
     background-color: #ffffff;
     padding: 1em;
@@ -244,7 +248,7 @@ footer p {
     width: 80%;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    margin-bottom: 3em;
     
 }
 
@@ -382,7 +386,7 @@ footer p {
     nav ul {
         flex-direction: column;
         text-align: center;
-        gap: 0.5em;
+        
     }
 
     .hero-content h1 {
