@@ -20,7 +20,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    
     transition: top 0.3s ease-in-out; /* Adiciona uma transição suave */
     z-index: 999;
   }
@@ -34,28 +34,30 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;  /* Ensures all items are vertically centered */
-    padding: 1em;
-    background-color: #333333;
+    padding: 0.5em;
+    background-color: #1d1d1d80;
 }
 
 nav .logo {
     display: flex;
     align-items: center;  /* Centers the logo image and text vertically */
-    font-size: 1.5em;
+    font-size: 1em;
     color: #fff;
 }
 
 nav .logo-img {
-    width: 64px;  /* Adjust this to the desired width */
+    width: 50px;  /* Adjust this to the desired width */
     height: auto; /* Automatically adjusts height to maintain aspect ratio */
     margin-right: 10px; /* Space between logo and text */
-    
+    margin-left: 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 1em;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 nav ul li a {
@@ -188,7 +190,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #333333;
+    background-color: #1d1d1d80;
     text-align: center;
     padding: 1em;
 }
