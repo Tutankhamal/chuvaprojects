@@ -40,10 +40,9 @@ nav {
     padding: 0.5em;
     border-radius: 20px;
     background-color: #1d1d1db0;
-    width: 400px;
+    max-width: 400px;
     margin-top: 1em;
     margin: 0 auto;
-    max-width: 500px;
     margin-top: 1em;
 }
 
@@ -199,10 +198,15 @@ nav ul li a {
 }
 
 footer {
-    background-color: #1d1d1d80;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1d1d1db0;
     text-align: center;
     padding: 1em;
-}
+    width: 100%; /* Garante que ocupe toda a largura da tela */
+  }
 
 footer p {
     margin: 0;
