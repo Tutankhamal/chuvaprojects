@@ -173,22 +173,24 @@ Additionally, follow us on social media to stay updated on all our projects.</p>
     </section>
 
 <!-- Footer -->
-	<footer>
-		<p>&copy; 2025 CHUVA Games CO. All Rights Reserved.</p>
-		<div class="social">
-			<a href="https://www.youtube.com/@chuvagames" target="_blank">YouTube</a> | 
-			<a href="https://discord.gg/Py6nAHGcDX">Discord</a> | 
-			<a href="#" id="copy-email2">Email</a>
-				<script>
-					document.getElementById('copy-email2').addEventListener('click', function() {
-						const email = 'andrewsnycollas@chuvagames.co'; // Replace with your email address
-						navigator.clipboard.writeText(email).then(function() {
-							alert('Email copied to clipboard: ' + email);
-						}, function(err) {
-							console.error('Could not copy email: ', err);
-						});
-					});
-				</script>
+<footer>
+    <p>&copy; 2025 CHUVA Games CO. All Rights Reserved.</p>
+    <div class="social">
+        <a href="https://www.youtube.com/@ChuvaGames" target="_blank">YouTube</a> | 
+        <a href="https://discord.gg/Py6nAHGcDX">Discord</a> | 
+        <a href="#" id="copy-email">Email</a>
+            <script>
+                document.getElementById('copy-email').addEventListener('click', function() {
+                    const email = 'andrewsnycollas@chuvagames.co'; // Replace with your email address
+                    navigator.clipboard.writeText(email).then(function() {
+                        alert('Email copied to clipboard: ' + email);
+                    }, function(err) {
+                        console.error('Could not copy email: ', err);
+                    });
+                });
+            </script>
+    </div>
+  </footer>
 				
 
                 <script>
@@ -234,11 +236,7 @@ icons.forEach(icon => {
      };
     </script>
 
-		</div>
-	</footer>
-
-    <script src="scripts.js"></script>
-    <script>
+	<script>
    function btnCopyEmailClicked() {
             const email = 'andrewsnycollas@chuvagames.co'; // Replace with your email address
             navigator.clipboard.writeText(email)
