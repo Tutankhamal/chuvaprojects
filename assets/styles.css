@@ -224,7 +224,7 @@ footer p {
 /* Team Section */
 
 .team {
-    padding: 2em;
+    padding: 1em;
     background-color: #ffffff00;
     display: flex;
     flex-direction: column;
@@ -233,7 +233,7 @@ footer p {
 
 .team h1 {
     margin-bottom: 50px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .contact {
@@ -245,8 +245,8 @@ footer p {
     background-color: #ffffff;
     padding: 1em;
     border-radius: 10px;
-    width: 80%;
-    max-width: 800px;
+    width: 90;
+    max-width: 900px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 3em;
     
@@ -258,12 +258,12 @@ footer p {
     flex-direction: column; /* Empilha os elementos verticalmente */
     align-items: center; /* Centraliza os itens verticalmente */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    margin: 25px ; /* 20px para cima e para baixo, 7px para os lados */
+    margin: 15px ; /* 20px para cima e para baixo, 7px para os lados */
     background-color: #ffffff;
     padding: 1em;
     border-radius: 10px;
-    width: 80%;
-    max-width: 800px;
+    width: 90;
+    max-width: 900px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 3em;
   }
@@ -312,8 +312,8 @@ footer p {
     margin: 5px ;
     max-width: 730px; /* Full width for the bio since only one image */
     text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
