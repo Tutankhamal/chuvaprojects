@@ -75,7 +75,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1em;
     text-align: center;
-    
+    margin: 5px;
 }
 
 .navselect {
@@ -86,53 +86,68 @@ nav ul li a {
 
 
 /* Hero Section */
+
+.hero-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);  
+  margin: 50px auto; /* Ajuste conforme necessário */
+}
+
 .hero {
-    height: 100vh;
-    background-color: #00000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Permite que a hero ocupe todo o espaço disponível */
 }
 
 .hero-logo {
-    max-width: 100%;
-    width: 400px;  /* Adjust the size of the logo */
-    height: auto;  /* Maintain the aspect ratio */
-    margin-bottom: 1em; /* Space between the logo and the text */
-    margin-top: 15%;
-    
+  max-width: 100%;
+  width: 400px; 
+  height: auto; 
+  margin-bottom: 20px; 
+  margin-top: 10px;
 }
 
 .hero-content {
-    text-align: center;
-    margin-bottom: 9%;
+  text-align: center;
 }
 
 .hero-content h1 {
-    font-size: 3em;
-    margin-bottom: 0.5em;
+  font-size: 3em;
 }
 
 .hero-content p {
-    font-size: 1.5em;
-    margin-top: 2%;
+  font-size: 1.5em;
+  margin-bottom: 15%;
 }
 
 .hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1em;  /* Adds space between the two buttons */
+  display: flex;
+  justify-content: center;
+  gap: 1em; 
 }
 
 .button-container {
-    display: flex;
-    justify-content: center; /* Distribute buttons evenly */
-    flex-wrap: wrap; /* Allow buttons to wrap to new lines */
-    margin-top: 25px;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 200px) {
+  .hero-logo {
+    width: 80%; /* Reduz o tamanho da logo em telas menores */
   }
+  .hero-content h1 {
+    font-size: 2em; /* Reduz o tamanho do texto em telas menores */
+  }
+  .hero-content p {
+    font-size: 1.2em;
+  }
+}
 
 .btn2 {
     display: inline-block;
